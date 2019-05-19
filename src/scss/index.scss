@@ -1,0 +1,179 @@
+.logo-main{
+    .fas{
+        font-size: 25px !important;
+        
+    }
+    img{
+        margin-top:-4px;
+        width:123px ;
+        height:30px;
+    }
+  
+}
+body{
+    scroll-behavior: smooth !important;
+}
+.align-self-end{
+  
+        .img-fluid{
+            @media only screen and (max-width: 767px){
+               height: 430px !important;
+               width: 100% !important;
+               padding-top: 63px !important;
+        }
+    }
+}
+footer{
+    .medium{
+        font-size:29px;
+        color:#fff;
+        
+    }
+}
+.primary-btn {
+    
+    .fas{
+        margin-left:6px
+    }
+}
+
+.dev{
+    background: linear-gradient(40deg, #8490ff 0%, #62bdfc 100%);
+    padding:25px !important;
+    margin-left:23px !important;
+    margin-top:15px;
+    color:#fff !important;
+    font-weight: 500;
+    line-height: 42px;
+    border: none;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    @media only screen and (max-width: 767px){
+        padding:20px !important;
+        // background:linear-gradient(56deg, #007bff 0%, #62bdfc 100%) ;
+
+    }
+
+
+}
+.chips{
+    margin-left:-20px;
+}
+
+// .banner-area{
+//     @media only screen and (min-width: 768px){
+   
+//         height: 588px;
+ 
+
+// }
+// @media only screen and (min-width: 992px){
+   
+//     height: 753px;
+
+
+// }
+// @media only screen and (max-width: 300px){
+   
+//     height: 779px;
+
+
+// }
+
+// }
+
+.home{
+    @media only screen and (max-width: 767px){
+        padding-top:290px;
+    }
+}
+
+.about-1{
+    border-left: 2px solid #8490ff;
+    font-size: 12px;
+    padding-left: 10px;
+    margin-top:-8px;
+    
+}
+.story{
+    margin-top: 18px;
+ 
+}
+.major{
+    margin-top:34px;
+}
+
+.filters-content{
+    margin-top:-30px !important;
+}
+
+.icon-con{
+    font-size:54px;
+   cursor: pointer;
+    .fa-facebook-messenger, .fa-twitter, .fa-instagram{
+        background: -webkit-gradient(linear, left top, left bottom, from(#62bdfc), to(rgb(24, 89, 230)));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+   }
+   .fa-skype, .fa-envelope{
+    background: -webkit-gradient(linear, left top, left bottom, from(#62bdfc), to(rgb(24, 89, 230)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+   
+}
+.fa-linkedin-in{
+    background: -webkit-gradient(linear, left top, left bottom, from(#62bdfc), to(rgb(24, 89, 230)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+}
+
+#clicker{
+    #titled{
+        background: -webkit-gradient(linear, left top, left bottom, from(#62bdfc), to(rgb(24, 89, 230)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+}
+
+#clicker:hover{
+    transition: 1s;
+    #titled{
+     background:rgba(0, 0, 0, 0.356);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    .icon-con{
+        font-size:54px;
+       cursor: pointer;
+        .fa-facebook-messenger, .fa-envelope, .fa-twitter, .fa-instagram{
+            background: rgba(0, 0, 0, 0.356);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+       }
+       .fa-skype{
+        background: rgba(0, 0, 0, 0.356);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    
+       
+    }
+    .fa-linkedin-in{
+        background:rgba(0, 0, 0, 0.356);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    }
+}
+
+.toback{
+    transition: 1s;
+    background:#fff!important;
+    color:#04091e !important;
+    .fas{
+        margin-left:-12px !important;
+        padding-right:12px; 
+    } 
+}
